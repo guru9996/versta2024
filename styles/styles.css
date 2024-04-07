@@ -1,7 +1,25 @@
 @font-face {
-    font-family: 'Gilray';
+    font-family: 'Gilroy';
+    src: url('../Gilroy/Gilroy-Semibold.eot');
+    src: local('Gilroy Semibold'), local('Gilroy-Semibold'),
+        url('../Gilroy/Gilroy-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('../Gilroy/Gilroy-Semibold.woff2') format('woff2'),
+        url('../Gilroy/Gilroy-Semibold.woff') format('woff'),
+        url('../Gilroy/Gilroy-Semibold.ttf') format('truetype');
     font-weight: 600;
-    src: url('../Gilroy/Gilroy-Semibold.ttf');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../Gilroy/Gilroy-Bold.eot');
+    src: local('Gilroy Bold'), local('Gilroy-Bold'),
+        url('../Gilroy/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../Gilroy/Gilroy-Bold.woff2') format('woff2'),
+        url('../Gilroy/Gilroy-Bold.woff') format('woff'),
+        url('../Gilroy/Gilroy-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
 }
 
 
@@ -63,7 +81,7 @@ a {
     background: none;
     padding-left: 2.84%;
     padding-right: 2.84%;
-    font-family: 'Gilroy', sans-serif;
+    font-family: 'Gilroy';
     font-weight: 600;
     font-size: 18px;
     font-style: normal;
@@ -75,7 +93,7 @@ a {
 }
 
 .phone_number {
-    font-family: 'Gilroy', sans-serif;           
+    font-family: 'Gilroy';           
     font-weight: 600;
     font-style: normal;
     font-size: 18px;
@@ -99,8 +117,8 @@ a {
 }
 
 .link-header2 {
-    font-family: 'Gilroy', sans-serif;
-    font-weight: 200;
+    font-family: 'Gilroy';
+    font-weight: 600;
     font-size: 18px;
     font-style: normal;
 }
@@ -113,7 +131,9 @@ a {
 .content_bg-block1 {
     overflow: hidden;
     background-image: url('../img/bg-block1.png');
+    background-size: cover;
     background-repeat: no-repeat;
+    width: 100%;
 }
 
 .content-block1 {
@@ -155,9 +175,9 @@ a {
 }
 
 .subtitle_text-block1 {
-    font-family: 'Gilroy', sans-serif;
+    font-family: 'Gilroy';
     font-size: 26px;
-    font-weight: 100;
+    font-weight: 600;
     font-style: normal;
     margin-left: 5px;
 }
@@ -207,15 +227,15 @@ a {
 }
 
 .text_in_box-block1 {
-    font-family: 'Comfortaa', sans-serif;
-    font-size: 18px;
-    font-weight: 500;
+    font-family: 'Gilroy';
+    font-weight: 600;
     font-style: normal;
+    font-size: 18px;
 }
 
 .bold_text_in_box-block1 {
     font-family: 'Gilroy', sans-serif;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 18px;
     font-style: normal;
 }
@@ -252,7 +272,7 @@ a {
     
 }
 .situation__letter{
-    font-family: var(--second-family);
+    font-family: 'Gilroy';
     font-weight: 700;
     font-size: 120px;
     line-height: 100%;
@@ -260,7 +280,7 @@ a {
     padding-left: 20px;
 }
 .situation__text{
-    font-family: var(--font-family);
+    font-family: 'Gilroy';
     font-weight: 400;
     font-size: 18px;
     line-height: 130%;
@@ -268,7 +288,7 @@ a {
     max-width: 216px;
 }
 .situation-container__title{
-    font-family: var(--second-family);
+    font-family: 'Gilroy';
     font-weight: 700;
     font-size: 60px;
     line-height: 100%;
@@ -329,7 +349,7 @@ a {
     padding-top: 35px;
 }
 .block__title{
-    font-family: var(--font-family);
+    font-family: 'Gilroy';
     font-weight: 400;
     font-size: 26px;
     line-height: 120%;
@@ -338,7 +358,7 @@ a {
     margin-top: 24px;
 }
 .block__subtitle{
-    font-family: var(--font-family);
+    font-family: 'Gilroy';
     font-weight: 400;
     font-size: 18px;
     line-height: 130%;
@@ -354,7 +374,7 @@ a {
     width: 100%;
 }
 .values-container__title{
-    font-family: var(--second-family);
+    font-family: 'Gilroy';
     font-weight: 700;
     font-size: 64px;
     line-height: 90%;
@@ -374,7 +394,7 @@ a {
     max-width: 1160px;
 }
 .text-block__title{
-    font-family: var(--font-family);
+    font-family: 'Gilroy';
     font-weight: 400;
     font-size: 24px;
     line-height: 130%;
@@ -382,7 +402,7 @@ a {
     margin-bottom: 20px;
 }
 .text-block__subtitle{
-    font-family: var(--font-family);
+    font-family: 'Gilroy';
     font-weight: 400;
     font-size: 18px;
     line-height: 140%;
@@ -434,7 +454,7 @@ a {
     font-size: 18px;
 }
 .form__title{
-    font-family: var(--second-family);
+    font-family: 'Gilroy';
     font-weight: 700;
     font-size: 60px;
     line-height: 100%;
